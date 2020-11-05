@@ -3,18 +3,15 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to teardown's documentation!
-====================================
+
+################################################
+Welcome to Teardown's unofficial documentation!
+################################################
+
+It is work in progress now...
 
 .. toctree::
    :maxdepth: 2
-   :caption: Contents:
-
-
-
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
+   
+   source/ui/index
+   
