@@ -27,5 +27,5 @@ UiColor
      - a
      - 0-1
 
-Sets the current UI element position
+Sets the current UI element color
 
