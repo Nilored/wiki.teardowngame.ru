@@ -17,6 +17,6 @@ UiFont
 
    * - number
      - size
-     - Font size
+     - Font size.
 
-Setup a font
+Setup a font.

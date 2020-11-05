@@ -13,6 +13,6 @@ UiText
 
    * - string
      - text
-     - Text to draw
+     - Text to draw.
 
-Draws a text
+Draws a text.
