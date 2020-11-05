@@ -13,11 +13,11 @@ UiTranslate
 
    * - float
      - x
-     - Point position at screen width
+     - Point position at screen width.
 
    * - float
      - y
-     - Point position at screen height
+     - Point position at screen height.
 
-Sets the current UI element position
+Sets the current UI element position.
 

@@ -14,4 +14,5 @@ It is work in progress now...
    :maxdepth: 2
    
    source/ui/index
+   source/string/index
    

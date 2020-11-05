@@ -13,10 +13,10 @@ UiRect
 
    * - float
      - x
-     - Point position at screen width
+     - Point position at screen width.
 
    * - float
      - y
-     - Point position at screen height
+     - Point position at screen height.
 	 
-Draws a rect at the screen
+Draws a rect at the screen.
