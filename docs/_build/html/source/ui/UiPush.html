@@ -93,7 +93,10 @@
             
               <ul class="current">
 <li class="toctree-l1 current"><a class="reference internal" href="index.html">User Interface</a><ul class="current">
-<li class="toctree-l2 current"><a class="current reference internal" href="#">UiPush</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">UiPush</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#example">Example</a></li>
+</ul>
+</li>
 <li class="toctree-l2"><a class="reference internal" href="UiPop.html">UiPop</a></li>
 <li class="toctree-l2"><a class="reference internal" href="UiTranslate.html">UiTranslate</a></li>
 <li class="toctree-l2"><a class="reference internal" href="UiColor.html">UiColor</a></li>
@@ -104,6 +107,19 @@
 </li>
 <li class="toctree-l1"><a class="reference internal" href="../string/index.html">String</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="../string/byte.html">string.byte</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../string/char.html">string.char</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../string/dump.html">string.dump</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../string/gsub.html">string.gsub</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../string/gsub.html#example">Example</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../string/len.html">string.len</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../string/len.html#example">Example</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../string/len.html#output">Output:</a></li>
+</ul>
+</li>
+</ul>
+</li>
 </ul>
 </li>
 </ul>
@@ -180,6 +196,21 @@
 <div class="admonition note">
 <p class="first admonition-title">Note</p>
 <p class="last">It must be closed with <a class="reference internal" href="UiPop.html#uipop"><span class="std std-ref">UiPop</span></a></p>
+</div>
+<div class="section" id="example">
+<h2>Example<a class="headerlink" href="#example" title="Permalink to this headline">¶</a></h2>
+<div class="highlight-lua"><div class="highlight"><pre><span></span><span class="n">UiPush</span><span class="p">()</span>
+        <span class="n">UiTranslate</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">)</span>
+        <span class="n">UiColor</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mf">0.7</span><span class="p">)</span>
+        <span class="n">UiRect</span><span class="p">(</span><span class="n">UiWidth</span><span class="p">(),</span> <span class="n">UiHeight</span><span class="p">())</span>
+        <span class="n">UiTranslate</span><span class="p">(</span><span class="mi">50</span><span class="p">,</span> <span class="mi">50</span><span class="p">)</span>
+        <span class="n">UiColor</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">)</span>
+        <span class="n">UiAlign</span><span class="p">(</span><span class="s2">&quot;top left&quot;</span><span class="p">)</span>
+        <span class="n">UiFont</span><span class="p">(</span><span class="s2">&quot;font/bold.ttf&quot;</span><span class="p">,</span> <span class="mi">26</span><span class="p">)</span>
+        <span class="n">UiText</span><span class="p">(</span><span class="s2">&quot;Hello World!&quot;</span><span class="p">)</span>
+<span class="n">UiPop</span><span class="p">()</span>
+</pre></div>
+</div>
 </div>
 </div>
 
