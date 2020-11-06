@@ -7,7 +7,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>User Interface &mdash; teardown 0.0.1 documentation</title>
+  <title>UiWidth &mdash; teardown 0.0.1 documentation</title>
   
 
   
@@ -44,9 +44,7 @@
 
     
     <link rel="index" title="Index" href="../../genindex.html" />
-    <link rel="search" title="Search" href="../../search.html" />
-    <link rel="next" title="UiPush" href="UiPush.html" />
-    <link rel="prev" title="Welcome to Teardown’s unofficial documentation!" href="../../index.html" /> 
+    <link rel="search" title="Search" href="../../search.html" /> 
 </head>
 
 <body class="wy-body-for-nav">
@@ -91,8 +89,8 @@
               
             
             
-              <ul class="current">
-<li class="toctree-l1 current"><a class="current reference internal" href="#">User Interface</a><ul>
+              <ul>
+<li class="toctree-l1"><a class="reference internal" href="index.html">User Interface</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="UiPush.html">UiPush</a><ul>
 <li class="toctree-l3"><a class="reference internal" href="UiPush.html#example">Example</a></li>
 </ul>
@@ -103,18 +101,6 @@
 <li class="toctree-l2"><a class="reference internal" href="UiRect.html">UiRect</a></li>
 <li class="toctree-l2"><a class="reference internal" href="UiFont.html">UiFont</a></li>
 <li class="toctree-l2"><a class="reference internal" href="UiText.html">UiText</a></li>
-<li class="toctree-l2"><a class="reference internal" href="UiWidth.html">UiWidth</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="UiWidth.html#description">Description</a></li>
-<li class="toctree-l3"><a class="reference internal" href="UiWidth.html#returns">Returns</a></li>
-<li class="toctree-l3"><a class="reference internal" href="UiWidth.html#example">Example</a></li>
-</ul>
-</li>
-<li class="toctree-l2"><a class="reference internal" href="UiHeight.html">UiHeight</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="UiHeight.html#description">Description</a></li>
-<li class="toctree-l3"><a class="reference internal" href="UiHeight.html#returns">Returns</a></li>
-<li class="toctree-l3"><a class="reference internal" href="UiHeight.html#example">Example</a></li>
-</ul>
-</li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="../string/index.html">String</a><ul>
@@ -180,13 +166,13 @@
     
       <li><a href="../../index.html" class="icon icon-home"></a> &raquo;</li>
         
-      <li>User Interface</li>
+      <li>UiWidth</li>
     
     
       <li class="wy-breadcrumbs-aside">
         
             
-            <a href="../../_sources/source/ui/index.rst.txt" rel="nofollow"> View page source</a>
+            <a href="../../_sources/source/ui/UiWidth.md.txt" rel="nofollow"> View page source</a>
           
         
       </li>
@@ -199,33 +185,25 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
             
-  <div class="section" id="user-interface">
-<h1>User Interface<a class="headerlink" href="#user-interface" title="Permalink to this headline">¶</a></h1>
-<div class="toctree-wrapper compound">
-<ul>
-<li class="toctree-l1"><a class="reference internal" href="UiPush.html">UiPush</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="UiPush.html#example">Example</a></li>
-</ul>
-</li>
-<li class="toctree-l1"><a class="reference internal" href="UiPop.html">UiPop</a></li>
-<li class="toctree-l1"><a class="reference internal" href="UiTranslate.html">UiTranslate</a></li>
-<li class="toctree-l1"><a class="reference internal" href="UiColor.html">UiColor</a></li>
-<li class="toctree-l1"><a class="reference internal" href="UiRect.html">UiRect</a></li>
-<li class="toctree-l1"><a class="reference internal" href="UiFont.html">UiFont</a></li>
-<li class="toctree-l1"><a class="reference internal" href="UiText.html">UiText</a></li>
-<li class="toctree-l1"><a class="reference internal" href="UiWidth.html">UiWidth</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="UiWidth.html#description">Description</a></li>
-<li class="toctree-l2"><a class="reference internal" href="UiWidth.html#returns">Returns</a></li>
-<li class="toctree-l2"><a class="reference internal" href="UiWidth.html#example">Example</a></li>
-</ul>
-</li>
-<li class="toctree-l1"><a class="reference internal" href="UiHeight.html">UiHeight</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="UiHeight.html#description">Description</a></li>
-<li class="toctree-l2"><a class="reference internal" href="UiHeight.html#returns">Returns</a></li>
-<li class="toctree-l2"><a class="reference internal" href="UiHeight.html#example">Example</a></li>
-</ul>
-</li>
-</ul>
+  <div class="section" id="uiwidth">
+<h1>UiWidth<a class="headerlink" href="#uiwidth" title="Permalink to this headline">¶</a></h1>
+<p><code class="docutils literal"><span class="pre">number</span> <span class="pre">UiWidth()</span></code></p>
+<div class="section" id="description">
+<h2>Description<a class="headerlink" href="#description" title="Permalink to this headline">¶</a></h2>
+<p>Gets the width of the game’s window (in pixels).</p>
+</div>
+<div class="section" id="returns">
+<h2>Returns<a class="headerlink" href="#returns" title="Permalink to this headline">¶</a></h2>
+<p><code class="docutils literal"><span class="pre">number</span></code></p>
+<p>The width of the game’s window in pixels</p>
+</div>
+<div class="section" id="example">
+<h2>Example<a class="headerlink" href="#example" title="Permalink to this headline">¶</a></h2>
+<p>Prints the width of the screen</p>
+<div class="highlight-lua"><div class="highlight"><pre><span></span><span class="nb">print</span><span class="p">(</span> <span class="n">UiWidth</span><span class="p">()</span> <span class="p">)</span>
+</pre></div>
+</div>
+<p>Output: 1280 (depends on your resolution)</p>
 </div>
 </div>
 
@@ -234,15 +212,6 @@
            
           </div>
           <footer>
-  
-    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
-      
-        <a href="UiPush.html" class="btn btn-neutral float-right" title="UiPush" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
-      
-      
-        <a href="../../index.html" class="btn btn-neutral float-left" title="Welcome to Teardown’s unofficial documentation!" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
-      
-    </div>
   
 
   <hr/>
