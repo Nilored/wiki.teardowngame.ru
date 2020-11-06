@@ -12,3 +12,5 @@
    UiRect
    UiFont
    UiText
+   UiWidth
+   UiHeight
