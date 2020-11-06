@@ -23,4 +23,4 @@ string.byte
      - endPos = startPos
      - The last character of the string to get the byte of.
 	 
-Draws a rect at the screen
+Draws a rect at the screen.
